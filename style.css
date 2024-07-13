@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: darkolivegreen;
+
+}
+
+.container {
+    width: 80%;
+    min-height: 100vh;
+    background-color: white;
+    margin: auto;
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#numOfwords {
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    margin-top: 20px;
+    border: 1px solid rgb(239, 237, 237);
+    outline: none;
+    font: 100 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s;
+
+}
+button:hover {
+    background-color: rgb(24, 58, 195);
+}
+
+.paras {
+    background-color: rgb(229, 215, 215);
+    color: rgb(21, 21, 21);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+     word-spacing: 5px;
+     padding: 20px;
+     border-radius: 5px;
+     margin-top: 20px;
+    
+}
+
